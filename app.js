@@ -1,7 +1,7 @@
 const got = require('got');
 const _ = require('lodash');
 
-const githubToken = 'Token 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';
+const githubToken = 'Token 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';
 const headers = {'User-Agent': 'request', 'Authorization': githubToken};
 let username = 'awslabs';
 let repos = [];
@@ -30,7 +30,7 @@ const options = {
         }
 
     } catch (error) {
-        process.stdout.write('Github username not found \n');
+        console.log(error.body.message);
     }
 })();
 
