@@ -1,4 +1,10 @@
 {
+  "name": "node-github",
+  "version": "0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
     "got": "^9.6.0",
     "lodash": "^4.17.21"

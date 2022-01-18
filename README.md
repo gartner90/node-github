@@ -4,7 +4,7 @@
 
 -> npm install
 
--> node app
+-> node app || npm start
 
 Demo:
 
