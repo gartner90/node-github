@@ -1,6 +1,6 @@
 # Get languages count by github username
 
-##Instructions
+#Instructions
 
 -> npm install
 
