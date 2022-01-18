@@ -30,7 +30,7 @@ const options = {
         }
 
     } catch (error) {
-        console.log(error.body.message);
+        process.stdout.write(error.body.message);
     }
 })();
 
