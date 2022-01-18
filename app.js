@@ -1,7 +1,7 @@
 const got = require('got');
 const _ = require('lodash');
 
-const githubToken = 'Token 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';
+const githubToken = 'Token X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';
 const headers = {'User-Agent': 'request', 'Authorization': githubToken};
 let username = 'awslabs';
 let repos = [];
